@@ -1,6 +1,6 @@
 const CONFIG = {
-  BASE_URL: 'https://your-vercel-domain.vercel.app/api/',
-  BASE_IMAGE_URL: 'https://your-vercel-domain.vercel.app/api/images/',
+  BASE_URL: 'https://refood-navy.vercel.app/api/',
+  BASE_IMAGE_URL: 'https://refood-navy.vercel.app/api/images/',
   DEFAULT_LANGUAGE: 'en-us',
 };
 
