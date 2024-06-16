@@ -1,6 +1,6 @@
 const CONFIG = {
-  BASE_URL: 'http://54.254.164.76:5000/',
-  BASE_IMAGE_URL: 'http://54.254.164.76:5000/images/',
+  BASE_URL: 'https://your-vercel-domain.vercel.app/api/',
+  BASE_IMAGE_URL: 'https://your-vercel-domain.vercel.app/api/images/',
   DEFAULT_LANGUAGE: 'en-us',
 };
 
