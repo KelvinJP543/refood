@@ -71,7 +71,7 @@ module.exports = {
       swDest: './sw.bundle.js',
       runtimeCaching: [
         {
-          urlPattern: ({ url }) => url.href.startsWith('https://refood-navy.vercel.app/api/'),
+          urlPattern: ({ url }) => url.href.startsWith('https://refood-navy.vercel.app/api'),
           handler: 'StaleWhileRevalidate',
           options: {
             cacheName: 'refood-api',
