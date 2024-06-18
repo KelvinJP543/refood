@@ -71,14 +71,14 @@ module.exports = {
       swDest: './sw.bundle.js',
       runtimeCaching: [
         {
-          urlPattern: ({ url }) => url.href.startsWith('http://54.254.164.76:5000'),
+          urlPattern: ({ url }) => url.href.startsWith('https://refood-navy.vercel.app/api/'),
           handler: 'StaleWhileRevalidate',
           options: {
             cacheName: 'refood-api',
           },
         },
         {
-          urlPattern: ({ url }) => url.href.startsWith('http://54.254.164.76:5000/images/'),
+          urlPattern: ({ url }) => url.href.startsWith('https://refood-navy.vercel.app/api/images/'),
           handler: 'StaleWhileRevalidate',
           options: {
             cacheName: 'refood-image-api',
